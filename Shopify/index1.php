@@ -9,7 +9,7 @@
 		<!-- BootStrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<!-- FontAwesome -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="style.css">
@@ -59,7 +59,22 @@
 	<main>
 	</main>
 	<!-- Footer -->
-	<footer>
+	<footer class='text-center'>
+		<nav class='nav navbar-inverse navbar-fixed-bottom'>
+			<div class='container-fluid'>
+				<ul class='nav navbar-nav'>
+					<li class='navbar-text'>Copyright &copy; CJ Mosawan </li>
+					<li><a href='https://github.com/naisuuu'><i class='fa fa-github'></i></a></li>
+					<li><a href='https://www.linkedin.com/in/cjmosawan'><i class='fa fa-linkedin'></i></a></li>
+					<li><a href='https://www.facebook.com/cjmosawan'><i class='fa fa-facebook'></i></a></li>
+				</ul>
+				<ul class='nav navbar-nav navbar-right'>
+					<li><a>Site Map</a></li>
+					<li><a>Contact</a></li>
+					<li><a>Terms &amp; Conditions</a></li>
+				</ul>
+			</div>
+		<nav>
 	</footer>
 	<!-- JavaScript -->
 	
