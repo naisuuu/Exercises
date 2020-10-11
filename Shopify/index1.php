@@ -18,13 +18,23 @@
 	
 	<!-- Header -->
 	<header>
+		<div class='container-fluid'>
+			<div class='jumbotron text-center'>
+				<h1>WebDev</h1>
+				<p>Used for exercise purposes only</p>
+			</div>
+		</div>
 	</header>
-	<nav class='navbar navbar-inverse'>
+	<nav class='navbar navbar-inverse navbar-fixed-top'>
 		<div class='container-fluid'>
 			<header class='navbar-header'>
 				<button type='button' class='navbar-toggle' data-toggle='collapse'
-				data-target='#myNavbar'> Menu </button>
-				<a class='navbar-brand' href='index1.php'> Shopify Home </a>
+				data-target='#myNavbar'>
+				<span class='icon-bar'></span>
+				<span class='icon-bar'></span>
+				<span class='icon-bar'></span>
+				</button>
+				<a class='navbar-brand' href='index1.php'> WebDev Home </a>
 			</header>
 		
 		<div class='collapse navbar-collapse' id='myNavbar'>
@@ -33,12 +43,12 @@
 				<li><a href='#'>Deals</a></li>
 			</ul>
 			<ul class='nav navbar-nav navbar-right'>
-				<li><a href='#'>Sign In</a></li>
-				<li><a href='#'>Cart</a></li>
+				<li><a href='#'><span class='glyphicon glyphicon-user'></span>Sign In</a></li>
+				<li><a href='#'><span class='glyphicon glyphicon-shopping-cart'></span>Cart</a></li>
 				<li>
 					<form class='navbar-form' action='#' method='POST'>
 							<input type='text' class='form-control'	placeholder='Search for a Product'>
-							<button type='submit' class='btn btn-primary'>Search </button> 
+							<button type='submit' class='btn btn-primary'><span class='glyphicon glyphicon-search'></span> </button> 
 					</form>
 				</li>
 			</ul>
