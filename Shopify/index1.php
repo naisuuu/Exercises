@@ -26,7 +26,7 @@
 				data-target='#myNavbar'> Menu </button>
 				<a class='navbar-brand' href='index1.php'> Shopify Home </a>
 			</header>
-		</div>
+		
 		<div class='collapse navbar-collapse' id='myNavbar'>
 			<ul class='nav navbar-nav'>
 				<li><a href='#'>Products</a></li>
@@ -42,6 +42,7 @@
 					</form>
 				</li>
 			</ul>
+		</div>
 		</div>
 	</nav>
 	<!-- Main -->
