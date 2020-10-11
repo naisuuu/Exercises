@@ -22,13 +22,30 @@
 	<!-- Header -->
 	<header>
 	</header>
-	<nav class='navbar navbar-inverse'>
+	<nav class="navbar navbar-inverse">
 		<div class='container-fluid'>
 			<header class='navbar-header'>
-				<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#'>
+				<button type='button' class='navbar-toggle' data-toggle='collapse'
+				data-target='#myNavbar'> Menu </button>
 				</button>
+				<a class='navbar-brand' href='index1.php'> Shopify Home </a>
 			</header>
-		
+		</div>
+		<div class='collapse navbar-collapse' id='myNavbar'>
+			<ul class='nav navbar-nav'>
+				<li><a href='#'>Products</a></li>
+				<li><a href='#'>Deals</a></li>
+			</ul>
+			<ul class='nav navbar-nav navbar-right'>
+				<li><a href='#'>Sign In</a></li>
+				<li><a href='#'>Cart</a></li>
+				<li>
+					<form class='navbar-form' action='#' method='POST'>
+							<input type='text' class='form-control'	placeholder='Search for a Product'>
+							<button type='submit'>Search </button> 
+					</form>
+				</li>
+			</ul>
 		</div>
 	</nav>
 	<!-- Main -->
