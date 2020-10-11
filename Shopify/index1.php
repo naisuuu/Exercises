@@ -7,10 +7,7 @@
 		<title> Shopify </title>
 		<!-- CSS -->
 		<!-- BootStrap -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
-		crossorigin="anonymous">
-	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<!-- FontAwesome -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		
@@ -22,12 +19,11 @@
 	<!-- Header -->
 	<header>
 	</header>
-	<nav class="navbar navbar-inverse">
+	<nav class='navbar navbar-inverse'>
 		<div class='container-fluid'>
 			<header class='navbar-header'>
 				<button type='button' class='navbar-toggle' data-toggle='collapse'
 				data-target='#myNavbar'> Menu </button>
-				</button>
 				<a class='navbar-brand' href='index1.php'> Shopify Home </a>
 			</header>
 		</div>
@@ -42,7 +38,7 @@
 				<li>
 					<form class='navbar-form' action='#' method='POST'>
 							<input type='text' class='form-control'	placeholder='Search for a Product'>
-							<button type='submit'>Search </button> 
+							<button type='submit' class='btn btn-primary'>Search </button> 
 					</form>
 				</li>
 			</ul>
